@@ -1,0 +1,293 @@
+*{
+  border: solid black 0px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* HEADER */
+.canoreco-logo{
+  margin: 0% auto 0% auto;
+}
+
+#canoreco{
+  padding: 8% 0px;
+}
+
+#company-name{
+  display: flex;
+  align-items:center;
+  cursor: pointer;
+}
+
+#header{
+  background-color:  #1034A6; 
+  color: white!important; 
+}
+
+
+#footer{ 
+  background: #36454F;
+  font-size: 12px;
+}
+
+
+#scrolltop-button{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #242B2E;
+  color: #758283;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+
+/* T O P    N A V I G A T I O N */
+.nav-tab:hover{
+  color: #F4BE2C!important;
+}
+.dropdown-item:hover{
+  color: #F4BE2C!important;
+  background-color: white!important;
+}
+
+#toggle-menu{
+  box-shadow: 0 4px 5px -3px gray;
+}
+
+caption{
+  font-weight: bold;
+  color: blue!important;
+}
+
+/* F O  R M  S  */
+
+.textBox{
+  border: solid #989898 1px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px gainsboro;
+}
+
+.editBox{
+  padding: 5px;
+  border: solid #989898 1px;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.dropdownContainer{
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.infoBox{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+  overflow: auto;
+  text-align: right;
+}
+
+.editBox::placeholder{
+  text-transform: none;
+}
+
+.textBox:hover, .editBox:hover{
+  border-color: #F7CD2E;
+}
+#backButton{
+  color:blue;
+}
+
+.forDriver{
+  background-color: #1B98F5!important;
+}
+.boxForDriver{
+  width: 20px; 
+  height: 20px; 
+  background-color: #1B98F5;
+}
+.forMechanic{
+  background-color: #38CC77!important;
+}
+.boxForMechanic{
+  width: 20px; 
+  height: 20px; 
+  background-color: #38CC77;
+}
+
+
+
+
+/* REQUEST FORMS */
+
+
+a{
+  text-decoration: none!important; 
+ 
+}
+
+.add-vehicle{
+  background-color: transparent;
+}
+
+.add-driver{
+  background-color: transparent;
+}
+
+
+.sub-button{
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 10%;
+}
+
+.checkboxLabel:hover{
+  cursor: pointer;
+}
+
+
+/* VEHICLE PREVENTIVE MAINTENANCE */
+
+.maintenance-panel{
+  padding: 50px 0px;
+  border: solid yellow 0px;
+}
+
+.maintenance-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+#comments{
+  height: 150px;
+}
+
+.form-padding{
+  padding: 10px;
+}
+
+#current-reading{
+  position: relative;
+}
+#suffix{
+  position: absolute;
+
+  right: 10px;
+  color: #7B7B93;
+}
+
+  
+
+
+/* VEHICLE REPAIR */
+
+.repair-panel{
+  padding: 50px 0px;
+}
+
+#findings{
+  height: 150px;
+}
+input[type=checkbox] + label{
+  cursor: pointer;
+}
+
+.repair-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+#plate-no{
+  text-transform:uppercase;
+}
+
+#specify-other{
+  padding: 10px;
+  height: 150px;
+  overflow: auto;
+  resize:  none;
+}
+
+
+#findings{
+  padding: 10px;
+  height: 150px;
+  overflow: auto;
+  resize:  none;
+}
+
+/* LTO & INSURANCE REGISTRATION AND RENEWAL */
+
+.registration-panel{
+  padding: 50px 0px;
+  border: solid yellow 0px;
+  background-color:  #5D8AA8;
+
+}
+
+.registration-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+#remarks{
+  padding: 10px;
+  height: 150px;
+  overflow: auto;
+  resize:  none;
+}
+
+
+a{
+  text-decoration: none!important; 
+}
+
+
+.infoBox::placeholder {
+    text-align: right;
+}
+
+/* U S E R    I M A G E    P R O F I L E */
+#user-profile-picture{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 599px){
+  .textBox, .editBox{
+    width: 100%;
+    display: block
+  }
+  
+}

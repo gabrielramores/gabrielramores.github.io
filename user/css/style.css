@@ -1,0 +1,292 @@
+*{
+  border: solid black 0px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+/* HEADER */
+.canoreco-logo{
+  margin: 0% auto 0% auto;
+}
+
+#company-name{
+  display: flex;
+  align-items:center;
+  cursor: pointer;
+}
+
+#header{
+  background-color:  #1034A6; 
+  color: white!important; 
+}
+
+
+#footer{ 
+  background: #36454F;
+  font-size: 12px;
+}
+
+
+#scrolltop-button{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #242B2E;
+  color: #758283;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+
+/*   T O P   N A  V I G A T I O N    B A R */
+.nav-tab:hover{
+  color: blue!important;
+}
+.dropdown-item:hover{
+  color: blue!important;
+  background-color: white!important;
+}
+
+#toggle-menu{
+  box-shadow: 0 4px 5px -3px gray;
+}
+
+
+/* S I D E      N A V I G A  T I O N    B A R  */
+.con-con{
+  padding: 0px;
+  width: 100%;
+  border: solid black 0px;
+}
+
+.sidenavBar {
+  background-color: white;
+  border: solid #CAD5E2 1px;
+  height: 100vh;
+  opacity: 1;
+  overflow-x: hidden;
+  overflow: auto;
+  left: 0;
+  padding-top: 100px;
+  position: fixed;
+  width: 0px;
+  z-index: 1;
+  top: 0; 
+  transition: 0.5s;
+}
+
+
+.sidenavBar button {
+  border: solid #CAD5E2 1px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 22px;
+  color: blue;
+  display: block;
+  transition: 0.3s;
+  width: 90%;
+  text-align: center;
+  margin: 5px 5%;
+  border-radius: 0px 20px 0px 20px;
+  box-shadow:  1px 1px 1px 1px #f5f5f5;
+}
+
+.sidenavBar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 40px;
+  border: solid #CAD5E2 1px;
+  padding: 5px;
+  border-top: none;
+  box-shadow:  1px 1px 1px 1px #f5f5f5;
+}
+
+.open-btn{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 45%;
+  border: none;
+  outline: none;
+  background-color: #242B2E;
+  color: #758283;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.mvg{
+  font-weight: bold;
+}
+
+
+/* VEHICLE PREVENTIVE MAINTENANCE */
+
+.maintenance-panel{
+  padding: 50px 0px;
+  border: solid yellow 0px;
+}
+
+.maintenance-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+.textBox{
+  border: solid #989898 1px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px gainsboro;
+}
+
+.editBox{
+  padding: 5px;
+  border: solid #989898 1px;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.infoBox{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  width: 60%;
+  overflow: auto;
+  text-align: right;
+}
+
+
+.textBox:hover, .editBox:hover{
+  border-color: #F7CD2E;
+}
+
+.options{
+  margin: 10px 0px 10px 40px;
+}
+
+.tag{
+  font-size: 16px;
+}
+
+.tag:hover{
+  color: blue!important;
+  cursor: pointer!important;
+}
+
+
+.sub-button{
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 10%;
+}
+
+.form-padding{
+  padding: 10px;
+  
+}
+
+
+/* VEHICLE REPAIR */
+
+.repair-panel{
+  padding: 50px 0px;
+}
+
+
+input[type=checkbox] + label{
+  cursor: pointer;
+}
+
+.repair-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+#plate-no{
+  text-transform:uppercase;
+}
+
+#specify-other{
+  padding: 10px;
+  height: 150px;
+  overflow: auto;
+  resize:  none;
+}
+
+/* LTO & INSURANCE REGISTRATION AND RENEWAL */
+
+.registration-panel{
+  padding: 50px 0px;
+  border: solid yellow 0px;
+  background-color:  #5D8AA8;
+
+}
+
+.registration-container{
+  border: solid #CAD5E2 1px;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px 1px #f5f5f5;
+  border-radius: 5px;
+}
+
+
+#current-reading{
+  position: relative;
+}
+#suffix{
+  position: absolute;
+  top: 0; 
+  right: 10px;
+  color: #7B7B93;
+}
+
+a{
+  text-decoration: none!important; 
+}
+
+
+.infoBox::placeholder {
+    text-align: right;
+}
+
+/* U S E R    I M A G E    P R O F I L E */
+#user-profile-picture{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 599px){
+  .textBox, .editBox{
+    width: 100%;
+    display: block
+  }
+}
